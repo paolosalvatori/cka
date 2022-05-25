@@ -1,71 +1,71 @@
 # Bookmarks
 ## Commands
-<A HREF="https://kubernetes.io/docs/reference/kubectl/cheatsheet/" ADD_DATE="1627387551" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADbElEQVQ4jW2TS2xUdRjFz/f/35k7z86LAcaWBlDSEtBWSgUbUiIYTRtQ6yNRHkZDJBFNBMSNBq0kuNCYaAl1IbJwYcBqFETFKgmMEbAxausQpdQOpsVhOoxt58773v/9XNQ2LPytvvMl56zOAf6DmeXcDRBPDT2WL1tfF8rWCc79/ABugpkF/g/uhsbTg49nctap9/sNs7N7krsOTvNH5/KVXNH8jHO/dTFAN3vmBOevbM1Yi3d8esG85+SAhd+Thr0oKm1lM1JZJZsbgvTgXcBDba5vAtbIB+Rv7JsLYC7v6/tRf+vtvkmkMkUV8hFfy1ryyXt9KFcZfd8XEQtLNVVgWnqLV+59JIjNd1aeJ+k6TPxVh/732s8vdHYXmxb4y1bFJG0qr2j7Ri/aV7qgFPDtryUcO1fEwqBkm9k0TI/zi/3us7Ee530amncvSSTNJUa+RE31mmNDkwsNdU4MDJfpH0OhXGXMDwi891yYR9MWnfml5Lg4XMLQqFwe23Y4JuCrXZOcIB/B5rNDFXjdktc2OimeqPDEtM1jNxQPDFe5/XYXMTPil6oAK4ykOYzI6hYNet3KkbSmmYrNZbUObX5AYN2+63zkhQgFfQIOQbi7UUf7Sym8uSPM9VFJY1lLjaY1J3zLVojJqrfl8liJBUFEayR7dUGb1njg0QlfDhRxZrAEv5vQ0ermgIcoXCMgQPgzZXG25F2lJdPmusRowb6/xS3alutYFJUIeYmOx4u8p8tPlgLe+DjHty6UNC8guXO1GxE/yXjC4KvXAxtoMq8Gn+3N33EpaahyFWLXJj8KZYbLyVQxwQGPQCZnUcSvMQAcOmlAd5Jqvi2g9ex09Iug+cdTB7f7Uj6PLnQH2Uf786iLSrz4cACaBAnB1L01hKBP4MjpPJwOUkG/W3v1CT0RMuLPzBTJuPLoD+NLj+18d4Irpk2bW3W5YrFuG0VFAOB1Sb48XhEnLpaVx+XEoV3BwvrYTx0UaTuvMbMkok+4lDnw8pYFr+/uHTeLVaD3VI6uZW0bAGojglobdGWUwPu3BbX19X/toZq288wsaXZdRGSzVTja0+95+sPTacwLOiDlzDSVDdyYMrFlYxR7O3MHyBF6bdYzG0AEgHFVhx17x6jIVRazmnkzSJCtMaTfZX9HUn+FmYmIGAD+BaUao0aOmMfpAAAAAElFTkSuQmCC">START: cheatSheet: useful commands</A>
+<A HREF="https://kubernetes.io/docs/reference/kubectl/cheatsheet/" ADD_DATE="1627387551" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADbElEQVQ4jW2TS2xUdRjFz/f/35k7z86LAcaWBlDSEtBWSgUbUiIYTRtQ6yNRHkZDJBFNBMSNBq0kuNCYaAl1IbJwYcBqFETFKgmMEbAxausQpdQOpsVhOoxt58773v/9XNQ2LPytvvMl56zOAf6DmeXcDRBPDT2WL1tfF8rWCc79/ABugpkF/g/uhsbTg49nctap9/sNs7N7krsOTvNH5/KVXNH8jHO/dTFAN3vmBOevbM1Yi3d8esG85+SAhd+Thr0oKm1lM1JZJZsbgvTgXcBDba5vAtbIB+Rv7JsLYC7v6/tRf+vtvkmkMkUV8hFfy1ryyXt9KFcZfd8XEQtLNVVgWnqLV+59JIjNd1aeJ+k6TPxVh/732s8vdHYXmxb4y1bFJG0qr2j7Ri/aV7qgFPDtryUcO1fEwqBkm9k0TI/zi/3us7Ee530amncvSSTNJUa+RE31mmNDkwsNdU4MDJfpH0OhXGXMDwi891yYR9MWnfml5Lg4XMLQqFwe23Y4JuCrXZOcIB/B5rNDFXjdktc2OimeqPDEtM1jNxQPDFe5/XYXMTPil6oAK4ykOYzI6hYNet3KkbSmmYrNZbUObX5AYN2+63zkhQgFfQIOQbi7UUf7Sym8uSPM9VFJY1lLjaY1J3zLVojJqrfl8liJBUFEayR7dUGb1njg0QlfDhRxZrAEv5vQ0ermgIcoXCMgQPgzZXG25F2lJdPmusRowb6/xS3alutYFJUIeYmOx4u8p8tPlgLe+DjHty6UNC8guXO1GxE/yXjC4KvXAxtoMq8Gn+3N33EpaahyFWLXJj8KZYbLyVQxwQGPQCZnUcSvMQAcOmlAd5Jqvi2g9ex09Iug+cdTB7f7Uj6PLnQH2Uf786iLSrz4cACaBAnB1L01hKBP4MjpPJwOUkG/W3v1CT0RMuLPzBTJuPLoD+NLj+18d4Irpk2bW3W5YrFuG0VFAOB1Sb48XhEnLpaVx+XEoV3BwvrYTx0UaTuvMbMkok+4lDnw8pYFr+/uHTeLVaD3VI6uZW0bAGojglobdGWUwPu3BbX19X/toZq288wsaXZdRGSzVTja0+95+sPTacwLOiDlzDSVDdyYMrFlYxR7O3MHyBF6bdYzG0AEgHFVhx17x6jIVRazmnkzSJCtMaTfZX9HUn+FmYmIGAD+BaUao0aOmMfpAAAAAElFTkSuQmCC">START: cheatSheet: useful commands</A><BR>
 ## YAML
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/audit/audit-policy.yaml" ADD_DATE="1627387551">AUDITPOLICY: auditPolicy spec</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/application/job/cronjob.yaml" ADD_DATE="1627387551">CRONJOB: cronjbo spec</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/application/simple_deployment.yaml" ADD_DATE="1627387551">DEPLOY: sample nginx deployment spec</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/service/networking/minimal-ingress.yaml" ADD_DATE="1627387551">INGRESS: ingress spec</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/service/networking/nginx-policy.yaml" ADD_DATE="1627387551">NETWORKPOLICY: spec</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/pod-configmap-envFrom.yaml" ADD_DATE="1627387551">POD: configMap as env</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/pod-configmap-envFrom.yaml" ADD_DATE="1627387551">POD: env as configMapRef [all values]</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/pod-single-configmap-env-variable.yaml" ADD_DATE="1627387551">POD: env as configMapKeyRef [single value]</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/inject/envars.yaml" ADD_DATE="1627387551">POD: inline environmental variables</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/probe/exec-liveness.yaml" ADD_DATE="1627387551">POD: livenessProbe [command]</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/probe/http-liveness.yaml" ADD_DATE="1627387551">POD: livenessProbe [http]</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/private-reg-pod.yaml" ADD_DATE="1627387551">POD: imagePullSecrets</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/pod-with-node-affinity.yaml" ADD_DATE="1627387551">POD: nodeAffinity</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/pod-nginx.yaml" ADD_DATE="1627387551">POD: nodeSelector</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/commands.yaml" ADD_DATE="1627387551">POD: command and args</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/inject/pod-secret-envFrom.yaml" ADD_DATE="1627387551">POD: env from secretRef</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/pod-projected-svc-token.yaml" ADD_DATE="1627387551">POD: projected volume [sa token]</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/storage/pv-pod.yaml" ADD_DATE="1627387551">POD: persistentVolumeClaim</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/pod-with-toleration.yaml" ADD_DATE="1627387551">POD: tolerations</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/storage/redis.yaml" ADD_DATE="1627387551">POD: volume mount [emptyDir]</A>
-<A HREF="https://kubernetes.io/docs/concepts/storage/volumes/#emptydir-configuration-example" ADD_DATE="1627387551">POD: volume mount [hostPath]</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/security/security-context.yaml" ADD_DATE="1627387551">POD: securityContext [basic config]</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/storage/pv-volume.yaml" ADD_DATE="1627387551">PV: pv spec</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/storage/pv-claim.yaml" ADD_DATE="1627387551">PVC: pvc spec</A>
-<A HREF="https://kubernetes.io/docs/concepts/containers/runtime-class/#2-create-the-corresponding-runtimeclass-resources" ADD_DATE="1627387551">RUNTIME-CLASS: spec</A>
-<A HREF="https://kubernetes.io/docs/concepts/services-networking/service/#nodeport" ADD_DATE="1627387551">SERVICE: nodePort</A>
-<A HREF="https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer" ADD_DATE="1627387551">SERVICE: loadBlancer</A>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/audit/audit-policy.yaml" ADD_DATE="1627387551">AUDITPOLICY: auditPolicy spec</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/application/job/cronjob.yaml" ADD_DATE="1627387551">CRONJOB: cronjbo spec</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/application/simple_deployment.yaml" ADD_DATE="1627387551">DEPLOY: sample nginx deployment spec</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/service/networking/minimal-ingress.yaml" ADD_DATE="1627387551">INGRESS: ingress spec</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/service/networking/nginx-policy.yaml" ADD_DATE="1627387551">NETWORKPOLICY: spec</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/pod-configmap-envFrom.yaml" ADD_DATE="1627387551">POD: configMap as env</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/pod-configmap-envFrom.yaml" ADD_DATE="1627387551">POD: env as configMapRef [all values]</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/pod-single-configmap-env-variable.yaml" ADD_DATE="1627387551">POD: env as configMapKeyRef [single value]</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/inject/envars.yaml" ADD_DATE="1627387551">POD: inline environmental variables</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/probe/exec-liveness.yaml" ADD_DATE="1627387551">POD: livenessProbe [command]</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/probe/http-liveness.yaml" ADD_DATE="1627387551">POD: livenessProbe [http]</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/private-reg-pod.yaml" ADD_DATE="1627387551">POD: imagePullSecrets</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/pod-with-node-affinity.yaml" ADD_DATE="1627387551">POD: nodeAffinity</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/pod-nginx.yaml" ADD_DATE="1627387551">POD: nodeSelector</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/commands.yaml" ADD_DATE="1627387551">POD: command and args</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/inject/pod-secret-envFrom.yaml" ADD_DATE="1627387551">POD: env from secretRef</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/pod-projected-svc-token.yaml" ADD_DATE="1627387551">POD: projected volume [sa token]</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/storage/pv-pod.yaml" ADD_DATE="1627387551">POD: persistentVolumeClaim</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/pod-with-toleration.yaml" ADD_DATE="1627387551">POD: tolerations</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/storage/redis.yaml" ADD_DATE="1627387551">POD: volume mount [emptyDir]</A><BR>
+<A HREF="https://kubernetes.io/docs/concepts/storage/volumes/#emptydir-configuration-example" ADD_DATE="1627387551">POD: volume mount [hostPath]</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/security/security-context.yaml" ADD_DATE="1627387551">POD: securityContext [basic config]</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/storage/pv-volume.yaml" ADD_DATE="1627387551">PV: pv spec</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/storage/pv-claim.yaml" ADD_DATE="1627387551">PVC: pvc spec</A><BR>
+<A HREF="https://kubernetes.io/docs/concepts/containers/runtime-class/#2-create-the-corresponding-runtimeclass-resources" ADD_DATE="1627387551">RUNTIME-CLASS: spec</A><BR>
+<A HREF="https://kubernetes.io/docs/concepts/services-networking/service/#nodeport" ADD_DATE="1627387551">SERVICE: nodePort</A><BR>
+<A HREF="https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer" ADD_DATE="1627387551">SERVICE: loadBlancer</A><BR>
 ## Tasks
-<A HREF="https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/#imagepolicywebhook" ADD_DATE="1627387551">ADMISSION-CONTROLLER:  configure ImagePolicyWebhook </A>
-<A HREF="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/" ADD_DATE="1627387551">CLUSTER: installation</A>
-<A HREF="https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/" ADD_DATE="1627387551">CLUSTER:  upgrade</A>
-<A HREF="https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/#create-a-certificate-signing-request-object-to-send-to-the-kubernetes-api" ADD_DATE="1627387551">CSR: create and execute</A>
-<A HREF="https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/#deploying-the-dashboard-ui" ADD_DATE="1627387551">DASHBOARD: deploy dashboard</A>
-<A HREF="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#updating-a-deployment" ADD_DATE="1627387551">DEPLOY: update deployment and set new image</A>
-<A HREF="https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/#create-a-simple-pod-to-use-as-a-test-environment" ADD_DATE="1627387551">DNS: debug DNS</A>
-<A HREF="https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/#create-a-simple-pod-to-use-as-a-test-environment" ADD_DATE="1627387551">DNS: test resolution</A>
-<A HREF="https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster" ADD_DATE="1627387551">ETCD: create backup</A>
-<A HREF="https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/" ADD_DATE="1627387551">KUBELET: config options</A>
-<A HREF="https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/#which-plugins-are-enabled-by-default" ADD_DATE="1627387551">KUBE-API: admissionPlugins [default admission plugins]</A>
-<A HREF="https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/#limit-access-to-the-nginx-service" ADD_DATE="1627387551">NETPOL: limit ingress</A>
-<A HREF="https://kubernetes.io/docs/concepts/services-networking/network-policies/#behavior-of-to-and-from-selectors" ADD_DATE="1627387551">NETPOL: namespace selector</A>
-<A HREF="https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/#concepts" ADD_DATE="1627387551">NODE: taint node to be unschedulable</A>
-<A HREF="https://kubernetes.io/docs/concepts/containers/images/#referring-to-an-imagepullsecrets-on-a-pod" ADD_DATE="1627387551">POD: configure pulling images from private repository</A>
-<A HREF="https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/#meaning-of-memory" ADD_DATE="1627387551">POD: configure resources limits</A>
-<A HREF="https://kubernetes.io/docs/concepts/cluster-administration/logging/#sidecar-container-with-a-logging-agent" ADD_DATE="1627387551">POD: configure sidecar container with logging agent</A>
-<A HREF="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/#init-containers-in-use" ADD_DATE="1627387551">POD: configure initContainer</A>
-<A HREF="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#role-example" ADD_DATE="1627387551">ROLE: create via YAML</A>
-<A HREF="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#command-line-utilities" ADD_DATE="1627387551">ROLE: create imperatively</A>
-<A HREF="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#kubectl-create-rolebinding" ADD_DATE="1627387551">ROLEBINDING: create imperatively</A>
-<A HREF="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#role-and-clusterrole" ADD_DATE="1627387551">ROLEBINGIND: creating declaratively</A>
-<A HREF="https://kubernetes.io/docs/tasks/configmap-secret/managing-secret-using-kubectl/#decoding-secret" ADD_DATE="1627387551">SECRET: decode secret values</A>
+<A HREF="https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/#imagepolicywebhook" ADD_DATE="1627387551">ADMISSION-CONTROLLER:  configure ImagePolicyWebhook </A><BR>
+<A HREF="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/" ADD_DATE="1627387551">CLUSTER: installation</A><BR>
+<A HREF="https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/" ADD_DATE="1627387551">CLUSTER:  upgrade</A><BR>
+<A HREF="https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/#create-a-certificate-signing-request-object-to-send-to-the-kubernetes-api" ADD_DATE="1627387551">CSR: create and execute</A><BR>
+<A HREF="https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/#deploying-the-dashboard-ui" ADD_DATE="1627387551">DASHBOARD: deploy dashboard</A><BR>
+<A HREF="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#updating-a-deployment" ADD_DATE="1627387551">DEPLOY: update deployment and set new image</A><BR>
+<A HREF="https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/#create-a-simple-pod-to-use-as-a-test-environment" ADD_DATE="1627387551">DNS: debug DNS</A><BR>
+<A HREF="https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/#create-a-simple-pod-to-use-as-a-test-environment" ADD_DATE="1627387551">DNS: test resolution</A><BR>
+<A HREF="https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster" ADD_DATE="1627387551">ETCD: create backup</A><BR>
+<A HREF="https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/" ADD_DATE="1627387551">KUBELET: config options</A><BR>
+<A HREF="https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/#which-plugins-are-enabled-by-default" ADD_DATE="1627387551">KUBE-API: admissionPlugins [default admission plugins]</A><BR>
+<A HREF="https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/#limit-access-to-the-nginx-service" ADD_DATE="1627387551">NETPOL: limit ingress</A><BR>
+<A HREF="https://kubernetes.io/docs/concepts/services-networking/network-policies/#behavior-of-to-and-from-selectors" ADD_DATE="1627387551">NETPOL: namespace selector</A><BR>
+<A HREF="https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/#concepts" ADD_DATE="1627387551">NODE: taint node to be unschedulable</A><BR>
+<A HREF="https://kubernetes.io/docs/concepts/containers/images/#referring-to-an-imagepullsecrets-on-a-pod" ADD_DATE="1627387551">POD: configure pulling images from private repository</A><BR>
+<A HREF="https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/#meaning-of-memory" ADD_DATE="1627387551">POD: configure resources limits</A><BR>
+<A HREF="https://kubernetes.io/docs/concepts/cluster-administration/logging/#sidecar-container-with-a-logging-agent" ADD_DATE="1627387551">POD: configure sidecar container with logging agent</A><BR>
+<A HREF="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/#init-containers-in-use" ADD_DATE="1627387551">POD: configure initContainer</A><BR>
+<A HREF="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#role-example" ADD_DATE="1627387551">ROLE: create via YAML</A><BR>
+<A HREF="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#command-line-utilities" ADD_DATE="1627387551">ROLE: create imperatively</A><BR>
+<A HREF="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#kubectl-create-rolebinding" ADD_DATE="1627387551">ROLEBINDING: create imperatively</A><BR>
+<A HREF="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#role-and-clusterrole" ADD_DATE="1627387551">ROLEBINGIND: creating declaratively</A><BR>
+<A HREF="https://kubernetes.io/docs/tasks/configmap-secret/managing-secret-using-kubectl/#decoding-secret" ADD_DATE="1627387551">SECRET: decode secret values</A><BR>
 ## CKS ONLY
-<A HREF="https://gitlab.com/apparmor/apparmor/-/wikis/Documentation" ADD_DATE="1627387551">APPARMOR: Documentation</A>
-<A HREF="https://kubernetes.io/docs/tutorials/clusters/apparmor/#securing-a-pod" ADD_DATE="1627387551">APPARMOR: restrict a container&#39;s access</A>
-<A HREF="https://kubernetes.io/docs/tasks/debug-application-cluster/audit/#audit-policy" ADD_DATE="1627387551">AUDITPOLICY: implement audit policy</A>
-<A HREF="https://falco.org/docs/rules/supported-fields/" ADD_DATE="1627387551">FALCO: output fields</A>
-<A HREF="https://github.com/falcosecurity/falco/blob/master/rules/falco_rules.yaml" ADD_DATE="1627387551">FALCO: default rules</A>
-<A HREF="https://kubernetes.io/docs/tasks/tls/certificate-rotation/#enabling-client-certificate-rotation" ADD_DATE="1627387551">KUBELET: enable certificates Rotation for the Kubelet </A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/policy/example-psp.yaml" ADD_DATE="1627387551">PSP: podSecurityPolicy resource</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/security/security-context-4.yaml" ADD_DATE="1627387551">POD: securityContext [capabilities]</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/security/security-context-4.yaml" ADD_DATE="1627387551">POD: securityContext [container level add capabilities]</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/security/security-context-2.yaml" ADD_DATE="1627387551">POD: securityContext  [container level runAs]</A>
-<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/security/security-context.yaml" ADD_DATE="1627387551">POD: securityContext [pod level runAs]</A>
-<A HREF="https://kubernetes.io/docs/concepts/containers/runtime-class/#2-create-the-corresponding-runtimeclass-resources" ADD_DATE="1627387551">RUNTIMECLASS: usage</A>
-<A HREF="https://kubernetes.io/docs/tutorials/clusters/seccomp/#create-pod-with-seccomp-profile-that-only-allows-necessary-syscalls" ADD_DATE="1627387551">SECCOMP: seccompProfile [restrict pod]</A>
-<A HREF="https://docs.sysdig.com/?lang=en" ADD_DATE="1627387551">SYSDIG: documentation</A>
-<A HREF="https://github.com/aquasecurity/trivy" ADD_DATE="1627387551">TRIVY: documentation</A>
+<A HREF="https://gitlab.com/apparmor/apparmor/-/wikis/Documentation" ADD_DATE="1627387551">APPARMOR: Documentation</A><BR>
+<A HREF="https://kubernetes.io/docs/tutorials/clusters/apparmor/#securing-a-pod" ADD_DATE="1627387551">APPARMOR: restrict a container&#39;s access</A><BR>
+<A HREF="https://kubernetes.io/docs/tasks/debug-application-cluster/audit/#audit-policy" ADD_DATE="1627387551">AUDITPOLICY: implement audit policy</A><BR>
+<A HREF="https://falco.org/docs/rules/supported-fields/" ADD_DATE="1627387551">FALCO: output fields</A><BR>
+<A HREF="https://github.com/falcosecurity/falco/blob/master/rules/falco_rules.yaml" ADD_DATE="1627387551">FALCO: default rules</A><BR>
+<A HREF="https://kubernetes.io/docs/tasks/tls/certificate-rotation/#enabling-client-certificate-rotation" ADD_DATE="1627387551">KUBELET: enable certificates Rotation for the Kubelet </A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/policy/example-psp.yaml" ADD_DATE="1627387551">PSP: podSecurityPolicy resource</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/security/security-context-4.yaml" ADD_DATE="1627387551">POD: securityContext [capabilities]</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/security/security-context-4.yaml" ADD_DATE="1627387551">POD: securityContext [container level add capabilities]</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/security/security-context-2.yaml" ADD_DATE="1627387551">POD: securityContext  [container level runAs]</A><BR>
+<A HREF="https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/pods/security/security-context.yaml" ADD_DATE="1627387551">POD: securityContext [pod level runAs]</A><BR>
+<A HREF="https://kubernetes.io/docs/concepts/containers/runtime-class/#2-create-the-corresponding-runtimeclass-resources" ADD_DATE="1627387551">RUNTIMECLASS: usage</A><BR>
+<A HREF="https://kubernetes.io/docs/tutorials/clusters/seccomp/#create-pod-with-seccomp-profile-that-only-allows-necessary-syscalls" ADD_DATE="1627387551">SECCOMP: seccompProfile [restrict pod]</A><BR>
+<A HREF="https://docs.sysdig.com/?lang=en" ADD_DATE="1627387551">SYSDIG: documentation</A><BR>
+<A HREF="https://github.com/aquasecurity/trivy" ADD_DATE="1627387551">TRIVY: documentation</A><BR>
